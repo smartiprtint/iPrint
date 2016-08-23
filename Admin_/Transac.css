@@ -1,0 +1,119 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#Layer1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #ADD8E6 solid;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Layer2
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#TabMenu1
+{
+   text-align: left;
+   float: left;
+   margin: 0;
+   width: 100%;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   list-style-type: none;
+   padding: 15px 0px 4px 10px;
+   overflow: hidden;
+}
+#TabMenu1 li
+{
+   float: left;
+}
+#TabMenu1 li a.active, #TabMenu1 li a:hover.active
+{
+   position: relative;
+   font-weight: normal;
+   text-decoration: none;
+   z-index: 2;
+}
+#TabMenu1 li a
+{
+   padding: 5px 14px 8px 14px;
+   margin-right: 3px;
+   text-decoration: none;
+   border-bottom: none;
+   position: relative;
+   top: 0;
+   -webkit-transition: 200ms all linear;
+   -moz-transition: 200ms all linear;
+   transition: 200ms all linear;
+}
+#TabMenu1 li a:hover
+{
+   font-weight: normal;
+   text-decoration: none;
+   top: -4px;
+}
+#TabMenu1
+{
+   border-bottom: 1px solid #AED0EA;
+}
+#TabMenu1 li a.active, #TabMenu1 li a:hover.active
+{
+   background-color: #3BAAE3;
+   color: #FFFFFF;
+}
+#TabMenu1 li a
+{
+   border: 1px solid #AED0EA;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   background-color: #D7EBF9;
+   color: #2779AA;
+}
+#TabMenu1 li a:hover
+{
+   background: #4682B4;
+   color: #DCDCDC;
+}
+#wb_TabMenu1.affix
+{
+   top: 0 !important;
+   position: fixed !important;
+   left: 50% !important;
+   margin-left: -484px;
+}
+#Layer3
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #ADD8E6 solid;
+}

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_feedbacklist" value="name:id;datatype:int,name:time;datatype:timestamp,name:webEval;datatype:blob,name:droidEval;datatype:blob,name:others;datatype:blob" />
+</info>

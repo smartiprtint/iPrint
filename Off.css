@@ -1,0 +1,197 @@
+html, body
+{
+   height: 100%;
+}
+div#space
+{
+   width: 1px;
+   height: 50%;
+   margin-bottom: -248px;
+   float:left
+}
+div#container
+{
+   width: 800px;
+   height: 497px;
+   margin: 0 auto;
+   position: relative;
+   clear: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Layer1
+{
+   background-color: #4682B4;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   border-radius: 20px;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#NavigationBar1 ul.navbar
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1 ul.navbar li
+{
+   height: 30px;
+   width: 233px;
+   margin: 0 0 10px 0;
+   vertical-align: bottom;
+}
+#NavigationBar1 ul.navbar li a
+{
+   display: block;
+   position: relative;
+}
+#NavigationBar1 ul.navbar li a img
+{
+   position: absolute;
+   left: 0;
+   z-index: 1;
+   border-width: 0;
+}
+#NavigationBar1 ul.navbar li span
+{
+   display: block;
+   height: 30px;
+   width: 233px;
+   position: absolute;
+   z-index: 2;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 372px;
+   top: 34px;
+   width: 55px;
+   height: 60px;
+   z-index: 0;
+   text-align: left;
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 21px;
+   top: 130px;
+   width: 757px;
+   height: 64px;
+   text-align: center;
+   z-index: 1;
+}
+#Layer1
+{
+   position: absolute;
+   text-align: center;
+   left: 0px;
+   top: 0px;
+   width: 798px;
+   height: 369px;
+   z-index: 3;
+}
+#Layer1_Container
+{
+   width: 798px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#NavigationBar1
+{
+   position: absolute;
+   left: 283px;
+   top: 232px;
+   width: 233px;
+   height: 80px;
+   z-index: 2;
+}
+@media only screen and (max-width: 799px)
+{
+div#container
+{
+   width: 420px;
+   height: 497px;
+}
+#Layer1
+{
+   left: 0px;
+   top: 0px;
+   width: 418px;
+   height: 474px;
+   visibility: visible;
+   display: inline;
+   background-color: #4682B4;
+   background-image: none;
+}
+#Layer1_Container
+{
+   width: 416px;
+}
+#wb_Text1
+{
+   left: 182px;
+   top: 34px;
+   width: 55px;
+   height: 60px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   left: 20px;
+   top: 130px;
+   width: 378px;
+   height: 96px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#NavigationBar1
+{
+   left: 93px;
+   top: 307px;
+   visibility: visible;
+   display: inline;
+}
+}
